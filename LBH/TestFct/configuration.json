@@ -1,0 +1,2469 @@
+{
+    "generalInformation": {
+        "version": "1.0",
+        "description": "Configuration for Le Belier MES System",
+        "lastUpdate": "2019-10-11",
+        "lastOriginator": "Faouzi Ben Mabrouk",
+        "howToDeploy": "This configuration file 'conifguration.json' must be uploaded in iTAC MDA as a script (custom function) and named 'CONFIG'. The newest version will be loaded when the custom function will require data from the configuration."
+    },
+    "melting": {
+        "meltingLines": [
+            {
+                "lineId": "51b",
+                "stationNumber": "02002010"
+            },
+            {
+                "lineId": "51a",
+                "stationNumber": "02002010"
+            },
+            {
+                "lineId": "52",
+                "stationNumber": "02002010"
+            },
+            {
+                "lineId": "49",
+                "stationNumber": "02002020"
+            }
+        ],
+        "degassing": {
+            "alloys": [
+                {
+                    "alloy": "AS7G03-SR"
+                },
+                {
+                    "alloy": "AS7G06-SR"
+                },
+                {
+                    "alloy": "FBM"
+                }
+            ],
+            "suppliers": [
+                {
+                    "supplier": "Almet"
+                },
+                {
+                    "supplier": "Alumetal"
+                },
+                {
+                    "supplier": "AS Metal"
+                },
+                {
+                    "supplier": "Bluequest"
+                },
+                {
+                    "supplier": "ECCOMELT"
+                },
+                {
+                    "supplier": "EMAL"
+                },
+                {
+                    "supplier": "Glencore"
+                },
+                {
+                    "supplier": "Heneken"
+                },
+                {
+                    "supplier": "Hydro"
+                },
+                {
+                    "supplier": "LDC"
+                },
+                {
+                    "supplier": "LIBERTY"
+                },
+                {
+                    "supplier": "Martin Metals"
+                },
+                {
+                    "supplier": "Metalimex"
+                },
+                {
+                    "supplier": "ODDO"
+                },
+                {
+                    "supplier": "Talum"
+                },
+                {
+                    "supplier": "Thyssen"
+                },
+                {
+                    "supplier": "Trafigura"
+                }
+            ],
+            "weights": [
+                {
+                    "weight": "880",
+                    "unit": "KG"
+                }
+            ],
+            "pots": [
+                {
+                    "pot": "Pot 1"
+                },
+                {
+                    "pot": "Pot 2"
+                },
+                {
+                    "pot": "Pot 3"
+                },
+                {
+                    "pot": "Pot 4"
+                },
+                {
+                    "pot": "Pot 5"
+                },
+                {
+                    "pot": "Pot 6"
+                }
+            ],
+            "operators": [
+                {
+                    "id": "00983",
+                    "name": "Abraham",
+                    "firstName": "Balazs"
+                },
+                {
+                    "id": "01940",
+                    "name": "Albrecht",
+                    "firstName": "Peter"
+                },
+                {
+                    "id": "00923",
+                    "name": "Bakos",
+                    "firstName": "Szilard"
+                },
+                {
+                    "id": "01747",
+                    "name": "Bogdan",
+                    "firstName": "Janos"
+                },
+                {
+                    "id": "01757",
+                    "name": "Csegoldi",
+                    "firstName": "Csaba Lajos"
+                },
+                {
+                    "id": "00722",
+                    "name": "Ferenczi",
+                    "firstName": "Gyozo"
+                },
+                {
+                    "id": "00617",
+                    "name": "Hangyal",
+                    "firstName": "Zoltan"
+                },
+                {
+                    "id": "01119",
+                    "name": "Horvath",
+                    "firstName": "Krisztian Robert"
+                },
+                {
+                    "id": "00551",
+                    "name": "Horvath",
+                    "firstName": "Laszlo"
+                },
+                {
+                    "id": "01235",
+                    "name": "Kiss",
+                    "firstName": "Zoltan"
+                },
+                {
+                    "id": "00803",
+                    "name": "Kocsi",
+                    "firstName": "Jozsef"
+                },
+                {
+                    "id": "01155",
+                    "name": "Kocsi",
+                    "firstName": "Mihaly"
+                },
+                {
+                    "id": "02002",
+                    "name": "Lajtos",
+                    "firstName": "Tamas"
+                },
+                {
+                    "id": "02214",
+                    "name": "Mezei",
+                    "firstName": "Attila"
+                },
+                {
+                    "id": "01976",
+                    "name": "Modori",
+                    "firstName": "Bela"
+                },
+                {
+                    "id": "01320",
+                    "name": "Molnar",
+                    "firstName": "Mark Erno"
+                },
+                {
+                    "id": "01715",
+                    "name": "Nemeth",
+                    "firstName": "Karoly 01715"
+                },
+                {
+                    "id": "02036",
+                    "name": "Orban",
+                    "firstName": "Zsolt"
+                },
+                {
+                    "id": "00273",
+                    "name": "Orsos",
+                    "firstName": "Balazs"
+                },
+                {
+                    "id": "02094",
+                    "name": "Orsos",
+                    "firstName": "Krisztian"
+                },
+                {
+                    "id": "01281",
+                    "name": "Orsos",
+                    "firstName": "Sandor Jozsef"
+                },
+                {
+                    "id": "01992",
+                    "name": "Orszag",
+                    "firstName": "Tamas"
+                },
+                {
+                    "id": "01356",
+                    "name": "Pad",
+                    "firstName": "Jeno"
+                },
+                {
+                    "id": "00288",
+                    "name": "Perger",
+                    "firstName": "Janos"
+                },
+                {
+                    "id": "02167",
+                    "name": "Peternics",
+                    "firstName": "Balazs"
+                },
+                {
+                    "id": "00138",
+                    "name": "Polczmann",
+                    "firstName": "Jozsef"
+                },
+                {
+                    "id": "00446",
+                    "name": "Porkolab",
+                    "firstName": "Zoltan"
+                },
+                {
+                    "id": "02027",
+                    "name": "Sandor",
+                    "firstName": "Matyas"
+                },
+                {
+                    "id": "00177",
+                    "name": "Szabo",
+                    "firstName": "Kalman"
+                },
+                {
+                    "id": "01915",
+                    "name": "Szeibert",
+                    "firstName": "Henric Csaba"
+                },
+                {
+                    "id": "01852",
+                    "name": "Szijarto",
+                    "firstName": "Robert"
+                },
+                {
+                    "id": "02083",
+                    "name": "Tohotan",
+                    "firstName": "Norbert"
+                },
+                {
+                    "id": "01700",
+                    "name": "Toltl",
+                    "firstName": "Michel"
+                },
+                {
+                    "id": "01093",
+                    "name": "Torok",
+                    "firstName": "Jozsef"
+                },
+                {
+                    "id": "01695",
+                    "name": "Vagi",
+                    "firstName": "Krisztian"
+                },
+                {
+                    "id": "02052",
+                    "name": "Varga",
+                    "firstName": "Alfred"
+                },
+                {
+                    "id": "00024",
+                    "name": "Vizi",
+                    "firstName": "Gyula"
+                },
+                {
+                    "id": "01720",
+                    "name": "Zentai",
+                    "firstName": "Nandor"
+                }
+            ]
+        }
+    },
+    "sandCoreProducts": [
+        {
+            "productFamily": "Akebono MLBevo 18 ECE",
+            "linkedPartNumbers": "SC-51-D3507-17110|SC-51-D3507-27110",
+            "maxTrolleyQuantity": 224
+        },
+        {
+            "productFamily": "Akebono MLBevo 18 NAO",
+            "linkedPartNumbers": "SC-51-D3606-17110|SC-51-D3606-27110",
+            "maxTrolleyQuantity": 224
+        },
+        {
+            "productFamily": "Akebono MLBevo 19 ECE",
+            "linkedPartNumbers": "SC-51-D3508-17110|SC-51-D3508-27110",
+            "maxTrolleyQuantity": 224
+        },
+        {
+            "productFamily": "Akebono MLBevo 18 RS Q3",
+            "linkedPartNumbers": "SC-51-D3517-17110|SC-51-D3517-27110",
+            "maxTrolleyQuantity": 224
+        },
+        {
+            "productFamily": "Continental MLBevo 17 NAO",
+            "linkedPartNumbers": "SC-13.4446-9963.9|SC-13.4446-9964.9",
+            "maxTrolleyQuantity": 140
+        },
+        {
+            "productFamily": "Continental MLBevo 16 ECE",
+            "linkedPartNumbers": "SC-13.4426-9973.9|SC-13.4426-9974.9",
+            "maxTrolleyQuantity": 140
+        },
+        {
+            "productFamily": "Continental Hyundai M3 18",
+            "linkedPartNumbers": "SC-13.4446-9801.9|SC-13.4446-9802.9",
+            "maxTrolleyQuantity": 140
+        },
+        {
+            "productFamily": "Continental Hyundai M3 19",
+            "linkedPartNumbers": "SC-13.4446-9805.9|SC-13.4446-9806.9",
+            "maxTrolleyQuantity": 112
+        },
+        {
+            "productFamily": "Advics Daimler MRA",
+            "linkedPartNumbers": "SC-141116-10410|SC-141115-10410",
+            "maxTrolleyQuantity": 168
+        }
+    ],
+    "monoblocProducts": [
+        {
+            "productFamily": "Akebono MLBevo 18 ECE",
+            "linkedPartNumbers": "51-D3507-17110|51-D3507-27110",
+            "side": "L|R",
+            "code": "E"
+        },
+        {
+            "productFamily": "Akebono MLBevo 18 NAO",
+            "linkedPartNumbers": "51-D3606-17110|51-D3606-27110",
+            "side": "L|R",
+            "code": "D"
+        },
+        {
+            "productFamily": "Akebono MLBevo 19 ECE",
+            "linkedPartNumbers": "51-D3508-17110|51-D3508-27110",
+            "side": "L|R",
+            "code": "F"
+        },
+        {
+            "productFamily": "Akebono MLBevo 18 RS Q3",
+            "linkedPartNumbers": "51-D3517-17110|51-D3517-27110",
+            "side": "L|R",
+            "code": "G"
+        },
+        {
+            "productFamily": "Continental MLBevo 17 NAO",
+            "linkedPartNumbers": "13.4446-9963.9|13.4446-9964.9",
+            "side": "L|R",
+            "code": "C"
+        },
+        {
+            "productFamily": "Continental MLBevo 16 ECE",
+            "linkedPartNumbers": "13.4426-9973.9|13.4426-9974.9",
+            "side": "L|R",
+            "code": "B"
+        },
+        {
+            "productFamily": "Continental Hyundai M3 18",
+            "linkedPartNumbers": "13.4446-9801.9|13.4446-9802.9",
+            "side": "L|R",
+            "code": "H"
+        },
+        {
+            "productFamily": "Continental Hyundai M3 19",
+            "linkedPartNumbers": "13.4446-9805.9|13.4446-9806.9",
+            "side": "L|R",
+            "code": "I"
+        },
+        {
+            "productFamily": "Advics Daimler MRA",
+            "linkedPartNumbers": "141116-10410|141115-10410",
+            "side": "L|R",
+            "code": "A"
+        }
+    ],
+    "castingLines": [
+        {
+            "code": "A",
+            "line": "K6"
+        },
+        {
+            "code": "B",
+            "line": "K10"
+        },
+        {
+            "code": "C",
+            "line": "Kaizen"
+        }
+    ],
+    "machineInformations": [
+        {
+            "stationNumber": "0600200601",
+            "machineName": "Casting Carousel C06",
+            "numberOfPositions": 8,
+            "mode": 0
+        },
+        {
+            "stationNumber": "0600201001",
+            "machineName": "Casting Carousel C10",
+            "numberOfPositions": 8,
+            "mode": 0
+        },
+        {
+            "stationNumber": "060020K101",
+            "machineName": "Casting Kaizen 1",
+            "numberOfPositions": 2,
+            "mode": 0
+        },
+        {
+            "stationNumber": "06008010",
+            "machineName": "SIIF C06",
+            "numberOfPositions": 6,
+            "mode": 1
+        },
+        {
+            "stationNumber": "06008020",
+            "machineName": "SIIF C10",
+            "numberOfPositions": 6,
+            "mode": 1
+        }
+    ],
+    "castingEquipments": [
+        {
+            "product": "MLB**16*_***",
+            "informations": [
+                {
+                    "castingProduct": "13.4426-9973.9/13.4426-9974.9",
+                    "sandCoreProduct": "SC-13.4426-9973.9/13.4426-9974.9",
+                    "description": "CONTINENTAL MLBEVO 16",
+                    "toolDescription": "Casting die 2 cavities",
+                    "equipmentPartNumber": "DC-9973/74.9",
+                    "cavity": "1",
+                    "equipmentId": "DC-9973/74.9@1",
+                    "extId": "DC-MLB16-LR@1",
+                    "position": "L",
+                    "printPerDie": "2",
+                    "equipmentUsage": "Casting",
+                    "usedIn": "C10/Kaizen"
+                },
+                {
+                    "castingProduct": "13.4426-9973.9/13.4426-9974.9",
+                    "sandCoreProduct": "SC-13.4426-9973.9/13.4426-9974.9",
+                    "description": "CONTINENTAL MLBEVO 16",
+                    "toolDescription": "Casting die 2 cavities",
+                    "equipmentPartNumber": "DC-9973/74.9",
+                    "cavity": "2",
+                    "equipmentId": "DC-9973/74.9@2",
+                    "extId": "DC-MLB16-LR@2",
+                    "position": "R",
+                    "printPerDie": "2",
+                    "equipmentUsage": "Casting",
+                    "usedIn": "C10/Kaizen"
+                },
+                {
+                    "castingProduct": "13.4426-9973.9/13.4426-9974.9",
+                    "sandCoreProduct": "SC-13.4426-9973.9/13.4426-9974.9",
+                    "description": "CONTINENTAL MLBEVO 16",
+                    "toolDescription": "Casting die 2 cavities",
+                    "equipmentPartNumber": "DC-9973/74.9",
+                    "cavity": "3",
+                    "equipmentId": "DC-9973/74.9@3",
+                    "extId": "DC-MLB16-LR@3",
+                    "position": "L",
+                    "printPerDie": "2",
+                    "equipmentUsage": "Casting",
+                    "usedIn": "C10/Kaizen"
+                },
+                {
+                    "castingProduct": "13.4426-9973.9/13.4426-9974.9",
+                    "sandCoreProduct": "SC-13.4426-9973.9/13.4426-9974.9",
+                    "description": "CONTINENTAL MLBEVO 16",
+                    "toolDescription": "Casting die 2 cavities",
+                    "equipmentPartNumber": "DC-9973/74.9",
+                    "cavity": "4",
+                    "equipmentId": "DC-9973/74.9@4",
+                    "extId": "DC-MLB16-LR@4",
+                    "position": "R",
+                    "printPerDie": "2",
+                    "equipmentUsage": "Casting",
+                    "usedIn": "C10/Kaizen"
+                },
+                {
+                    "castingProduct": "13.4426-9973.9/13.4426-9974.9",
+                    "sandCoreProduct": "SC-13.4426-9973.9/13.4426-9974.9",
+                    "description": "CONTINENTAL MLBEVO 16",
+                    "toolDescription": "Casting die 2 cavities",
+                    "equipmentPartNumber": "DC-9973/74.9",
+                    "cavity": "5",
+                    "equipmentId": "DC-9973/74.9@5",
+                    "extId": "DC-MLB16-LR@5",
+                    "position": "L",
+                    "printPerDie": "2",
+                    "equipmentUsage": "Casting",
+                    "usedIn": "C10/Kaizen"
+                },
+                {
+                    "castingProduct": "13.4426-9973.9/13.4426-9974.9",
+                    "sandCoreProduct": "SC-13.4426-9973.9/13.4426-9974.9",
+                    "description": "CONTINENTAL MLBEVO 16",
+                    "toolDescription": "Casting die 2 cavities",
+                    "equipmentPartNumber": "DC-9973/74.9",
+                    "cavity": "6",
+                    "equipmentId": "DC-9973/74.9@6",
+                    "extId": "DC-MLB16-LR@6",
+                    "position": "R",
+                    "printPerDie": "2",
+                    "equipmentUsage": "Casting",
+                    "usedIn": "C10/Kaizen"
+                },
+                {
+                    "castingProduct": "13.4426-9973.9/13.4426-9974.9",
+                    "sandCoreProduct": "SC-13.4426-9973.9/13.4426-9974.9",
+                    "description": "CONTINENTAL MLBEVO 16",
+                    "toolDescription": "Casting die 2 cavities",
+                    "equipmentPartNumber": "DC-9973/74.9",
+                    "cavity": "7",
+                    "equipmentId": "DC-9973/74.9@7",
+                    "extId": "DC-MLB16-LR@7",
+                    "position": "L",
+                    "printPerDie": "2",
+                    "equipmentUsage": "Casting",
+                    "usedIn": "C10/Kaizen"
+                },
+                {
+                    "castingProduct": "13.4426-9973.9/13.4426-9974.9",
+                    "sandCoreProduct": "SC-13.4426-9973.9/13.4426-9974.9",
+                    "description": "CONTINENTAL MLBEVO 16",
+                    "toolDescription": "Casting die 2 cavities",
+                    "equipmentPartNumber": "DC-9973/74.9",
+                    "cavity": "8",
+                    "equipmentId": "DC-9973/74.9@8",
+                    "extId": "DC-MLB16-LR@8",
+                    "position": "R",
+                    "printPerDie": "2",
+                    "equipmentUsage": "Casting",
+                    "usedIn": "C10/Kaizen"
+                },
+                {
+                    "castingProduct": "13.4426-9973.9/13.4426-9974.9",
+                    "sandCoreProduct": "SC-13.4426-9973.9/13.4426-9974.9",
+                    "description": "CONTINENTAL MLBEVO 16",
+                    "toolDescription": "Casting die 2 cavities",
+                    "equipmentPartNumber": "DC-9973/74.9",
+                    "cavity": "9",
+                    "equipmentId": "DC-9973/74.9@9",
+                    "extId": "DC-MLB16-LR@9",
+                    "position": "L",
+                    "printPerDie": "2",
+                    "equipmentUsage": "Casting",
+                    "usedIn": "C10/Kaizen"
+                },
+                {
+                    "castingProduct": "13.4426-9973.9/13.4426-9974.9",
+                    "sandCoreProduct": "SC-13.4426-9973.9/13.4426-9974.9",
+                    "description": "CONTINENTAL MLBEVO 16",
+                    "toolDescription": "Casting die 2 cavities",
+                    "equipmentPartNumber": "DC-9973/74.9",
+                    "cavity": "10",
+                    "equipmentId": "DC-9973/74.9@10",
+                    "extId": "DC-MLB16-LR@10",
+                    "position": "R",
+                    "printPerDie": "2",
+                    "equipmentUsage": "Casting",
+                    "usedIn": "C10/Kaizen"
+                },
+                {
+                    "castingProduct": "13.4426-9973.9/13.4426-9974.9",
+                    "sandCoreProduct": "SC-13.4426-9973.9/13.4426-9974.9",
+                    "description": "CONTINENTAL MLBEVO 16",
+                    "toolDescription": "Casting die 2 cavities",
+                    "equipmentPartNumber": "DC-9973/74.9",
+                    "cavity": "11",
+                    "equipmentId": "DC-9973/74.9@11",
+                    "extId": "DC-MLB16-LR@11",
+                    "position": "L",
+                    "printPerDie": "2",
+                    "equipmentUsage": "Casting",
+                    "usedIn": "C10/Kaizen"
+                }
+            ]
+        },
+        {
+            "product": "MLB**17*_***",
+            "informations": [
+                {
+                    "castingProduct": "13.4426-9963.9/13.4426-9964.9",
+                    "sandCoreProduct": "SC-13.4426-9963.9/13.4426-9964.9",
+                    "description": "CONTINENTAL MLBEVO 17",
+                    "toolDescription": "Casting die 2 cavities",
+                    "equipmentPartNumber": "DC-9963/64.9",
+                    "cavity": "1",
+                    "equipmentId": "DC-9963/64.9@1",
+                    "extId": "DC-MLB17-LR@1",
+                    "position": "R",
+                    "printPerDie": "2",
+                    "equipmentUsage": "Casting",
+                    "usedIn": "C10/Kaizen"
+                },
+                {
+                    "castingProduct": "13.4426-9963.9/13.4426-9964.9",
+                    "sandCoreProduct": "SC-13.4426-9963.9/13.4426-9964.9",
+                    "description": "CONTINENTAL MLBEVO 17",
+                    "toolDescription": "Casting die 2 cavities",
+                    "equipmentPartNumber": "DC-9963/64.9",
+                    "cavity": "2",
+                    "equipmentId": "DC-9963/64.9@2",
+                    "extId": "DC-MLB17-LR@2",
+                    "position": "L",
+                    "printPerDie": "2",
+                    "equipmentUsage": "Casting",
+                    "usedIn": "C10/Kaizen"
+                },
+                {
+                    "castingProduct": "13.4426-9963.9/13.4426-9964.9",
+                    "sandCoreProduct": "SC-13.4426-9963.9/13.4426-9964.9",
+                    "description": "CONTINENTAL MLBEVO 17",
+                    "toolDescription": "Casting die 2 cavities",
+                    "equipmentPartNumber": "DC-9963/64.9",
+                    "cavity": "3",
+                    "equipmentId": "DC-9963/64.9@3",
+                    "extId": "DC-MLB17-LR@3",
+                    "position": "R",
+                    "printPerDie": "2",
+                    "equipmentUsage": "Casting",
+                    "usedIn": "C10/Kaizen"
+                },
+                {
+                    "castingProduct": "13.4426-9963.9/13.4426-9964.9",
+                    "sandCoreProduct": "SC-13.4426-9963.9/13.4426-9964.9",
+                    "description": "CONTINENTAL MLBEVO 17",
+                    "toolDescription": "Casting die 2 cavities",
+                    "equipmentPartNumber": "DC-9963/64.9",
+                    "cavity": "4",
+                    "equipmentId": "DC-9963/64.9@4",
+                    "extId": "DC-MLB17-LR@4",
+                    "position": "L",
+                    "printPerDie": "2",
+                    "equipmentUsage": "Casting",
+                    "usedIn": "C10/Kaizen"
+                },
+                {
+                    "castingProduct": "13.4426-9963.9/13.4426-9964.9",
+                    "sandCoreProduct": "SC-13.4426-9963.9/13.4426-9964.9",
+                    "description": "CONTINENTAL MLBEVO 17",
+                    "toolDescription": "Casting die 2 cavities",
+                    "equipmentPartNumber": "DC-9963/64.9",
+                    "cavity": "5",
+                    "equipmentId": "DC-9963/64.9@5",
+                    "extId": "DC-MLB17-LR@5",
+                    "position": "R",
+                    "printPerDie": "2",
+                    "equipmentUsage": "Casting",
+                    "usedIn": "C10/Kaizen"
+                },
+                {
+                    "castingProduct": "13.4426-9963.9/13.4426-9964.9",
+                    "sandCoreProduct": "SC-13.4426-9963.9/13.4426-9964.9",
+                    "description": "CONTINENTAL MLBEVO 17",
+                    "toolDescription": "Casting die 2 cavities",
+                    "equipmentPartNumber": "DC-9963/64.9",
+                    "cavity": "6",
+                    "equipmentId": "DC-9963/64.9@6",
+                    "extId": "DC-MLB17-LR@6",
+                    "position": "L",
+                    "printPerDie": "2",
+                    "equipmentUsage": "Casting",
+                    "usedIn": "C10/Kaizen"
+                },
+                {
+                    "castingProduct": "13.4426-9963.9/13.4426-9964.9",
+                    "sandCoreProduct": "SC-13.4426-9963.9/13.4426-9964.9",
+                    "description": "CONTINENTAL MLBEVO 17",
+                    "toolDescription": "Casting die 2 cavities",
+                    "equipmentPartNumber": "DC-9963/64.9",
+                    "cavity": "7",
+                    "equipmentId": "DC-9963/64.9@7",
+                    "extId": "DC-MLB17-LR@7",
+                    "position": "R",
+                    "printPerDie": "2",
+                    "equipmentUsage": "Casting",
+                    "usedIn": "C10/Kaizen"
+                },
+                {
+                    "castingProduct": "13.4426-9963.9/13.4426-9964.9",
+                    "sandCoreProduct": "SC-13.4426-9963.9/13.4426-9964.9",
+                    "description": "CONTINENTAL MLBEVO 17",
+                    "toolDescription": "Casting die 2 cavities",
+                    "equipmentPartNumber": "DC-9963/64.9",
+                    "cavity": "8",
+                    "equipmentId": "DC-9963/64.9@8",
+                    "extId": "DC-MLB17-LR@8",
+                    "position": "L",
+                    "printPerDie": "2",
+                    "equipmentUsage": "Casting",
+                    "usedIn": "C10/Kaizen"
+                },
+                {
+                    "castingProduct": "13.4426-9963.9/13.4426-9964.9",
+                    "sandCoreProduct": "SC-13.4426-9963.9/13.4426-9964.9",
+                    "description": "CONTINENTAL MLBEVO 17",
+                    "toolDescription": "Casting die 2 cavities",
+                    "equipmentPartNumber": "DC-9963/64.9",
+                    "cavity": "9",
+                    "equipmentId": "DC-9963/64.9@9",
+                    "extId": "DC-MLB17-LR@9",
+                    "position": "R",
+                    "printPerDie": "2",
+                    "equipmentUsage": "Casting",
+                    "usedIn": "C10/Kaizen"
+                },
+                {
+                    "castingProduct": "13.4426-9963.9/13.4426-9964.9",
+                    "sandCoreProduct": "SC-13.4426-9963.9/13.4426-9964.9",
+                    "description": "CONTINENTAL MLBEVO 17",
+                    "toolDescription": "Casting die 2 cavities",
+                    "equipmentPartNumber": "DC-9963/64.9",
+                    "cavity": "10",
+                    "equipmentId": "DC-9963/64.9@10",
+                    "extId": "DC-MLB17-LR@10",
+                    "position": "L",
+                    "printPerDie": "2",
+                    "equipmentUsage": "Casting",
+                    "usedIn": "C10/Kaizen"
+                },
+                {
+                    "castingProduct": "13.4426-9963.9/13.4426-9964.9",
+                    "sandCoreProduct": "SC-13.4426-9963.9/13.4426-9964.9",
+                    "description": "CONTINENTAL MLBEVO 17",
+                    "toolDescription": "Casting die 2 cavities",
+                    "equipmentPartNumber": "DC-9963/64.9",
+                    "cavity": "11",
+                    "equipmentId": "DC-9963/64.9@11",
+                    "extId": "DC-MLB17-LR@11",
+                    "position": "R",
+                    "printPerDie": "2",
+                    "equipmentUsage": "Casting",
+                    "usedIn": "C10/Kaizen"
+                }
+            ]
+        },
+        {
+            "product": "AKE**18*_ECE",
+            "informations": [
+                {
+                    "castingProduct": "51-D3507-17110",
+                    "sandCoreProduct": "SC-51-D3507-17110",
+                    "description": "AKEBONO Body caliper ECE 18 LH",
+                    "toolDescription": "Casting die 1 cavity",
+                    "equipmentPartNumber": "DC-3507-17110",
+                    "cavity": "1",
+                    "equipmentId": "DC-3507-17110@1",
+                    "extId": "DC-AKEECE18-L@1",
+                    "position": "L",
+                    "printPerDie": "1",
+                    "equipmentUsage": "Casting",
+                    "usedIn": "C10"
+                },
+                {
+                    "castingProduct": "51-D3507-27110",
+                    "sandCoreProduct": "SC-51-D3507-27110",
+                    "description": "AKEBONO Body caliper ECE 18 RH",
+                    "toolDescription": "Casting die 1 cavity",
+                    "equipmentPartNumber": "DC-3507-27110",
+                    "cavity": "1",
+                    "equipmentId": "DC-3507-27110@1",
+                    "extId": "DC-AKEECE18-R@1",
+                    "position": "R",
+                    "printPerDie": "1",
+                    "equipmentUsage": "Casting",
+                    "usedIn": "C10"
+                },
+                {
+                    "castingProduct": "51-D3507-17110",
+                    "sandCoreProduct": "SC-51-D3507-17110",
+                    "description": "AKEBONO Body caliper ECE 18 LH",
+                    "toolDescription": "Casting die 1 cavity",
+                    "equipmentPartNumber": "DC-3507-17110",
+                    "cavity": "2",
+                    "equipmentId": "DC-3507-17110@2",
+                    "extId": "DC-AKEECE18-L@2",
+                    "position": "L",
+                    "printPerDie": "1",
+                    "equipmentUsage": "Casting",
+                    "usedIn": "C10"
+                },
+                {
+                    "castingProduct": "51-D3507-27110",
+                    "sandCoreProduct": "SC-51-D3507-27110",
+                    "description": "AKEBONO Body caliper ECE 18 RH",
+                    "toolDescription": "Casting die 1 cavity",
+                    "equipmentPartNumber": "DC-3507-27110",
+                    "cavity": "2",
+                    "equipmentId": "DC-3507-27110@2",
+                    "extId": "DC-AKEECE18-R@2",
+                    "position": "R",
+                    "printPerDie": "1",
+                    "equipmentUsage": "Casting",
+                    "usedIn": "C10"
+                },
+                {
+                    "castingProduct": "51-D3507-17110",
+                    "sandCoreProduct": "SC-51-D3507-17110",
+                    "description": "AKEBONO Body caliper ECE 18 LH",
+                    "toolDescription": "Casting die 1 cavity",
+                    "equipmentPartNumber": "DC-3507-17110",
+                    "cavity": "3",
+                    "equipmentId": "DC-3507-17110@3",
+                    "extId": "DC-AKEECE18-L@3",
+                    "position": "L",
+                    "printPerDie": "1",
+                    "equipmentUsage": "Casting",
+                    "usedIn": "C10"
+                },
+                {
+                    "castingProduct": "51-D3507-27110",
+                    "sandCoreProduct": "SC-51-D3507-27110",
+                    "description": "AKEBONO Body caliper ECE 18 RH",
+                    "toolDescription": "Casting die 1 cavity",
+                    "equipmentPartNumber": "DC-3507-27110",
+                    "cavity": "3",
+                    "equipmentId": "DC-3507-27110@3",
+                    "extId": "DC-AKEECE18-R@3",
+                    "position": "R",
+                    "printPerDie": "1",
+                    "equipmentUsage": "Casting",
+                    "usedIn": "C10"
+                },
+                {
+                    "castingProduct": "51-D3507-17110",
+                    "sandCoreProduct": "SC-51-D3507-17110",
+                    "description": "AKEBONO Body caliper ECE 18 LH",
+                    "toolDescription": "Casting die 1 cavity",
+                    "equipmentPartNumber": "DC-3507-17110",
+                    "cavity": "4",
+                    "equipmentId": "DC-3507-17110@4",
+                    "extId": "DC-AKEECE18-L@4",
+                    "position": "L",
+                    "printPerDie": "1",
+                    "equipmentUsage": "Casting",
+                    "usedIn": "C10"
+                },
+                {
+                    "castingProduct": "51-D3507-27110",
+                    "sandCoreProduct": "SC-51-D3507-27110",
+                    "description": "AKEBONO Body caliper ECE 18 RH",
+                    "toolDescription": "Casting die 1 cavity",
+                    "equipmentPartNumber": "DC-3507-27110",
+                    "cavity": "4",
+                    "equipmentId": "DC-3507-27110@4",
+                    "extId": "DC-AKEECE18-R@4",
+                    "position": "R",
+                    "printPerDie": "1",
+                    "equipmentUsage": "Casting",
+                    "usedIn": "C10"
+                },
+                {
+                    "castingProduct": "51-D3507-17110",
+                    "sandCoreProduct": "SC-51-D3507-17110",
+                    "description": "AKEBONO Body caliper ECE 18 LH",
+                    "toolDescription": "Casting die 1 cavity",
+                    "equipmentPartNumber": "DC-3507-17110",
+                    "cavity": "5",
+                    "equipmentId": "DC-3507-17110@5",
+                    "extId": "DC-AKEECE18-L@5",
+                    "position": "L",
+                    "printPerDie": "1",
+                    "equipmentUsage": "Casting",
+                    "usedIn": "C10"
+                },
+                {
+                    "castingProduct": "51-D3507-27110",
+                    "sandCoreProduct": "SC-51-D3507-27110",
+                    "description": "AKEBONO Body caliper ECE 18 RH",
+                    "toolDescription": "Casting die 1 cavity",
+                    "equipmentPartNumber": "DC-3507-27110",
+                    "cavity": "5",
+                    "equipmentId": "DC-3507-27110@5",
+                    "extId": "DC-AKEECE18-R@5",
+                    "position": "R",
+                    "printPerDie": "1",
+                    "equipmentUsage": "Casting",
+                    "usedIn": "C10"
+                },
+                {
+                    "castingProduct": "51-D3507-17110",
+                    "sandCoreProduct": "SC-51-D3507-17110",
+                    "description": "AKEBONO Body caliper ECE 18 LH",
+                    "toolDescription": "Casting die 1 cavity",
+                    "equipmentPartNumber": "DC-3507-17110",
+                    "cavity": "6",
+                    "equipmentId": "DC-3507-17110@6",
+                    "extId": "DC-AKEECE18-L@6",
+                    "position": "L",
+                    "printPerDie": "1",
+                    "equipmentUsage": "Casting",
+                    "usedIn": "C10"
+                },
+                {
+                    "castingProduct": "51-D3507-27110",
+                    "sandCoreProduct": "SC-51-D3507-27110",
+                    "description": "AKEBONO Body caliper ECE 18 RH",
+                    "toolDescription": "Casting die 1 cavity",
+                    "equipmentPartNumber": "DC-3507-27110",
+                    "cavity": "6",
+                    "equipmentId": "DC-3507-27110@6",
+                    "extId": "DC-AKEECE18-R@6",
+                    "position": "R",
+                    "printPerDie": "1",
+                    "equipmentUsage": "Casting",
+                    "usedIn": "C10"
+                },
+                {
+                    "castingProduct": "51-D3507-17110",
+                    "sandCoreProduct": "SC-51-D3507-17110",
+                    "description": "AKEBONO Body caliper ECE 18 LH",
+                    "toolDescription": "Casting die 1 cavity",
+                    "equipmentPartNumber": "DC-3507-17110",
+                    "cavity": "7",
+                    "equipmentId": "DC-3507-17110@7",
+                    "extId": "DC-AKEECE18-L@7",
+                    "position": "L",
+                    "printPerDie": "1",
+                    "equipmentUsage": "Casting",
+                    "usedIn": "C10"
+                },
+                {
+                    "castingProduct": "51-D3507-27110",
+                    "sandCoreProduct": "SC-51-D3507-27110",
+                    "description": "AKEBONO Body caliper ECE 18 RH",
+                    "toolDescription": "Casting die 1 cavity",
+                    "equipmentPartNumber": "DC-3507-27110",
+                    "cavity": "7",
+                    "equipmentId": "DC-3507-27110@7",
+                    "extId": "DC-AKEECE18-R@7",
+                    "position": "R",
+                    "printPerDie": "1",
+                    "equipmentUsage": "Casting",
+                    "usedIn": "C10"
+                }
+            ]
+        },
+        {
+            "product": "AKE**18*_NAO",
+            "informations": [
+                {
+                    "castingProduct": "51-D3606-17110",
+                    "sandCoreProduct": "SC-51-D3606-17110",
+                    "description": "AKEBONO Body caliper NAO 18 LH",
+                    "toolDescription": "Casting die 1 cavity",
+                    "equipmentPartNumber": "DC-3606-17110",
+                    "cavity": "1",
+                    "equipmentId": "DC-3606-17110@1",
+                    "extId": "DC-AKENAO18-L@1",
+                    "position": "L",
+                    "printPerDie": "1",
+                    "equipmentUsage": "Casting",
+                    "usedIn": "C10"
+                },
+                {
+                    "castingProduct": "51-D3606-27110",
+                    "sandCoreProduct": "SC-51-D3606-27110",
+                    "description": "AKEBONO Body caliper NAO 18 RH",
+                    "toolDescription": "Casting die 1 cavity",
+                    "equipmentPartNumber": "DC-3606-27110",
+                    "cavity": "1",
+                    "equipmentId": "DC-3606-27110@1",
+                    "extId": "DC-AKENAO18-R@1",
+                    "position": "R",
+                    "printPerDie": "1",
+                    "equipmentUsage": "Casting",
+                    "usedIn": "C10"
+                },
+                {
+                    "castingProduct": "51-D3606-17110",
+                    "sandCoreProduct": "SC-51-D3606-17110",
+                    "description": "AKEBONO Body caliper NAO 18 LH",
+                    "toolDescription": "Casting die 1 cavity",
+                    "equipmentPartNumber": "DC-3606-17110",
+                    "cavity": "2",
+                    "equipmentId": "DC-3606-17110@2",
+                    "extId": "DC-AKENAO18-L@2",
+                    "position": "L",
+                    "printPerDie": "1",
+                    "equipmentUsage": "Casting",
+                    "usedIn": "C10"
+                },
+                {
+                    "castingProduct": "51-D3606-27110",
+                    "sandCoreProduct": "SC-51-D3606-27110",
+                    "description": "AKEBONO Body caliper NAO 18 RH",
+                    "toolDescription": "Casting die 1 cavity",
+                    "equipmentPartNumber": "DC-3606-27110",
+                    "cavity": "2",
+                    "equipmentId": "DC-3606-27110@2",
+                    "extId": "DC-AKENAO18-R@2",
+                    "position": "R",
+                    "printPerDie": "1",
+                    "equipmentUsage": "Casting",
+                    "usedIn": "C10"
+                },
+                {
+                    "castingProduct": "51-D3606-17110",
+                    "sandCoreProduct": "SC-51-D3606-17110",
+                    "description": "AKEBONO Body caliper NAO 18 LH",
+                    "toolDescription": "Casting die 1 cavity",
+                    "equipmentPartNumber": "DC-3606-17110",
+                    "cavity": "3",
+                    "equipmentId": "DC-3606-17110@3",
+                    "extId": "DC-AKENAO18-L@3",
+                    "position": "L",
+                    "printPerDie": "1",
+                    "equipmentUsage": "Casting",
+                    "usedIn": "C10"
+                },
+                {
+                    "castingProduct": "51-D3606-27110",
+                    "sandCoreProduct": "SC-51-D3606-27110",
+                    "description": "AKEBONO Body caliper NAO 18 RH",
+                    "toolDescription": "Casting die 1 cavity",
+                    "equipmentPartNumber": "DC-3606-27110",
+                    "cavity": "3",
+                    "equipmentId": "DC-3606-27110@3",
+                    "extId": "DC-AKENAO18-R@3",
+                    "position": "R",
+                    "printPerDie": "1",
+                    "equipmentUsage": "Casting",
+                    "usedIn": "C10"
+                },
+                {
+                    "castingProduct": "51-D3606-17110",
+                    "sandCoreProduct": "SC-51-D3606-17110",
+                    "description": "AKEBONO Body caliper NAO 18 LH",
+                    "toolDescription": "Casting die 1 cavity",
+                    "equipmentPartNumber": "DC-3606-17110",
+                    "cavity": "4",
+                    "equipmentId": "DC-3606-17110@4",
+                    "extId": "DC-AKENAO18-L@4",
+                    "position": "L",
+                    "printPerDie": "1",
+                    "equipmentUsage": "Casting",
+                    "usedIn": "C10"
+                },
+                {
+                    "castingProduct": "51-D3606-27110",
+                    "sandCoreProduct": "SC-51-D3606-27110",
+                    "description": "AKEBONO Body caliper NAO 18 RH",
+                    "toolDescription": "Casting die 1 cavity",
+                    "equipmentPartNumber": "DC-3606-27110",
+                    "cavity": "4",
+                    "equipmentId": "DC-3606-27110@4",
+                    "extId": "DC-AKENAO18-R@4",
+                    "position": "R",
+                    "printPerDie": "1",
+                    "equipmentUsage": "Casting",
+                    "usedIn": "C10"
+                },
+                {
+                    "castingProduct": "51-D3606-17110",
+                    "sandCoreProduct": "SC-51-D3606-17110",
+                    "description": "AKEBONO Body caliper NAO 18 LH",
+                    "toolDescription": "Casting die 1 cavity",
+                    "equipmentPartNumber": "DC-3606-17110",
+                    "cavity": "5",
+                    "equipmentId": "DC-3606-17110@5",
+                    "extId": "DC-AKENAO18-L@5",
+                    "position": "L",
+                    "printPerDie": "1",
+                    "equipmentUsage": "Casting",
+                    "usedIn": "C10"
+                },
+                {
+                    "castingProduct": "51-D3606-27110",
+                    "sandCoreProduct": "SC-51-D3606-27110",
+                    "description": "AKEBONO Body caliper NAO 18 RH",
+                    "toolDescription": "Casting die 1 cavity",
+                    "equipmentPartNumber": "DC-3606-27110",
+                    "cavity": "5",
+                    "equipmentId": "DC-3606-27110@5",
+                    "extId": "DC-AKENAO18-R@5",
+                    "position": "R",
+                    "printPerDie": "1",
+                    "equipmentUsage": "Casting",
+                    "usedIn": "C10"
+                },
+                {
+                    "castingProduct": "51-D3606-17110",
+                    "sandCoreProduct": "SC-51-D3606-17110",
+                    "description": "AKEBONO Body caliper NAO 18 LH",
+                    "toolDescription": "Casting die 1 cavity",
+                    "equipmentPartNumber": "DC-3606-17110",
+                    "cavity": "6",
+                    "equipmentId": "DC-3606-17110@6",
+                    "extId": "DC-AKENAO18-L@6",
+                    "position": "L",
+                    "printPerDie": "1",
+                    "equipmentUsage": "Casting",
+                    "usedIn": "C10"
+                },
+                {
+                    "castingProduct": "51-D3606-27110",
+                    "sandCoreProduct": "SC-51-D3606-27110",
+                    "description": "AKEBONO Body caliper NAO 18 RH",
+                    "toolDescription": "Casting die 1 cavity",
+                    "equipmentPartNumber": "DC-3606-27110",
+                    "cavity": "6",
+                    "equipmentId": "DC-3606-27110@6",
+                    "extId": "DC-AKENAO18-R@6",
+                    "position": "R",
+                    "printPerDie": "1",
+                    "equipmentUsage": "Casting",
+                    "usedIn": "C10"
+                },
+                {
+                    "castingProduct": "51-D3606-17110",
+                    "sandCoreProduct": "SC-51-D3606-17110",
+                    "description": "AKEBONO Body caliper NAO 18 LH",
+                    "toolDescription": "Casting die 1 cavity",
+                    "equipmentPartNumber": "DC-3606-17110",
+                    "cavity": "7",
+                    "equipmentId": "DC-3606-17110@7",
+                    "extId": "DC-AKENAO18-L@7",
+                    "position": "L",
+                    "printPerDie": "1",
+                    "equipmentUsage": "Casting",
+                    "usedIn": "C10"
+                },
+                {
+                    "castingProduct": "51-D3606-27110",
+                    "sandCoreProduct": "SC-51-D3606-27110",
+                    "description": "AKEBONO Body caliper NAO 18 RH",
+                    "toolDescription": "Casting die 1 cavity",
+                    "equipmentPartNumber": "DC-3606-27110",
+                    "cavity": "7",
+                    "equipmentId": "DC-3606-27110@7",
+                    "extId": "DC-AKENAO18-R@7",
+                    "position": "R",
+                    "printPerDie": "1",
+                    "equipmentUsage": "Casting",
+                    "usedIn": "C10"
+                },
+                {
+                    "castingProduct": "51-D3606-17110",
+                    "sandCoreProduct": "SC-51-D3606-17110",
+                    "description": "AKEBONO Body caliper NAO 18 LH",
+                    "toolDescription": "Casting die 1 cavity",
+                    "equipmentPartNumber": "DC-3606-17110",
+                    "cavity": "8",
+                    "equipmentId": "DC-3606-17110@8",
+                    "extId": "DC-AKENAO18-L@8",
+                    "position": "L",
+                    "printPerDie": "1",
+                    "equipmentUsage": "Casting",
+                    "usedIn": "C10"
+                },
+                {
+                    "castingProduct": "51-D3606-27110",
+                    "sandCoreProduct": "SC-51-D3606-27110",
+                    "description": "AKEBONO Body caliper NAO 18 RH",
+                    "toolDescription": "Casting die 1 cavity",
+                    "equipmentPartNumber": "DC-3606-27110",
+                    "cavity": "8",
+                    "equipmentId": "DC-3606-27110@8",
+                    "extId": "DC-AKENAO18-R@8",
+                    "position": "R",
+                    "printPerDie": "1",
+                    "equipmentUsage": "Casting",
+                    "usedIn": "C10"
+                }
+            ]
+        },
+        {
+            "product": "Ake**19*_ECE",
+            "informations": [
+                {
+                    "castingProduct": "51-D3508-17110",
+                    "sandCoreProduct": "SC-51-D3508-17110",
+                    "description": "AKEBONO Body caliper ECE 19 LH",
+                    "toolDescription": "Casting die 1 cavity",
+                    "equipmentPartNumber": "DC-3508-17110",
+                    "cavity": "1",
+                    "equipmentId": "DC-3508-17110@1",
+                    "extId": "DC-AKEECE19-L@1",
+                    "position": "L",
+                    "printPerDie": "1",
+                    "equipmentUsage": "Casting",
+                    "usedIn": "C10"
+                },
+                {
+                    "castingProduct": "51-D3508-27110",
+                    "sandCoreProduct": "SC-51-D3508-27110",
+                    "description": "AKEBONO Body caliper ECE 19 RH",
+                    "toolDescription": "Casting die 1 cavity",
+                    "equipmentPartNumber": "DC-3508-27110",
+                    "cavity": "1",
+                    "equipmentId": "DC-3508-27110@1",
+                    "extId": "DC-AKEECE19-R@1",
+                    "position": "R",
+                    "printPerDie": "1",
+                    "equipmentUsage": "Casting",
+                    "usedIn": "C10"
+                },
+                {
+                    "castingProduct": "51-D3508-17110",
+                    "sandCoreProduct": "SC-51-D3508-17110",
+                    "description": "AKEBONO Body caliper ECE 19 LH",
+                    "toolDescription": "Casting die 1 cavity",
+                    "equipmentPartNumber": "DC-3508-17110",
+                    "cavity": "2",
+                    "equipmentId": "DC-3508-17110@2",
+                    "extId": "DC-AKEECE19-L@2",
+                    "position": "L",
+                    "printPerDie": "1",
+                    "equipmentUsage": "Casting",
+                    "usedIn": "C10"
+                },
+                {
+                    "castingProduct": "51-D3508-27110",
+                    "sandCoreProduct": "SC-51-D3508-27110",
+                    "description": "AKEBONO Body caliper ECE 19 RH",
+                    "toolDescription": "Casting die 1 cavity",
+                    "equipmentPartNumber": "DC-3508-27110",
+                    "cavity": "2",
+                    "equipmentId": "DC-3508-27110@2",
+                    "extId": "DC-AKEECE19-R@2",
+                    "position": "R",
+                    "printPerDie": "1",
+                    "equipmentUsage": "Casting",
+                    "usedIn": "C10"
+                },
+                {
+                    "castingProduct": "51-D3508-17110",
+                    "sandCoreProduct": "SC-51-D3508-17110",
+                    "description": "AKEBONO Body caliper ECE 19 LH",
+                    "toolDescription": "Casting die 1 cavity",
+                    "equipmentPartNumber": "DC-3508-17110",
+                    "cavity": "3",
+                    "equipmentId": "DC-3508-17110@3",
+                    "extId": "DC-AKEECE19-L@3",
+                    "position": "L",
+                    "printPerDie": "1",
+                    "equipmentUsage": "Casting",
+                    "usedIn": "C10"
+                },
+                {
+                    "castingProduct": "51-D3508-27110",
+                    "sandCoreProduct": "SC-51-D3508-27110",
+                    "description": "AKEBONO Body caliper ECE 19 RH",
+                    "toolDescription": "Casting die 1 cavity",
+                    "equipmentPartNumber": "DC-3508-27110",
+                    "cavity": "3",
+                    "equipmentId": "DC-3508-27110@3",
+                    "extId": "DC-AKEECE19-R@3",
+                    "position": "R",
+                    "printPerDie": "1",
+                    "equipmentUsage": "Casting",
+                    "usedIn": "C10"
+                }
+            ]
+        },
+        {
+            "product": "Advic001_***",
+            "informations": [
+                {
+                    "castingProduct": "141115-10410",
+                    "sandCoreProduct": "SC-141115-10410",
+                    "description": "ADVICS Body caliper LH",
+                    "toolDescription": "Casting die 1 cavity",
+                    "equipmentPartNumber": "DC-141115-10410",
+                    "cavity": "1",
+                    "equipmentId": "DC-141115-10410@1",
+                    "extId": "DC-ADV-L@1",
+                    "position": "L",
+                    "printPerDie": "1",
+                    "equipmentUsage": "Casting",
+                    "usedIn": "C6"
+                },
+                {
+                    "castingProduct": "141116-10410",
+                    "sandCoreProduct": "SC-141116-10410",
+                    "description": "ADVICS Body caliper RH",
+                    "toolDescription": "Casting die 1 cavity",
+                    "equipmentPartNumber": "DC-141116-10410",
+                    "cavity": "1",
+                    "equipmentId": "DC-141116-10410@1",
+                    "extId": "DC-ADV-R@1",
+                    "position": "R",
+                    "printPerDie": "1",
+                    "equipmentUsage": "Casting",
+                    "usedIn": "C6"
+                },
+                {
+                    "castingProduct": "141115-10410",
+                    "sandCoreProduct": "SC-141115-10410",
+                    "description": "ADVICS Body caliper LH",
+                    "toolDescription": "Casting die 1 cavity",
+                    "equipmentPartNumber": "DC-141115-10410",
+                    "cavity": "2",
+                    "equipmentId": "DC-141115-10410@2",
+                    "extId": "DC-ADV-L@2",
+                    "position": "L",
+                    "printPerDie": "1",
+                    "equipmentUsage": "Casting",
+                    "usedIn": "C6"
+                },
+                {
+                    "castingProduct": "141116-10410",
+                    "sandCoreProduct": "SC-141116-10410",
+                    "description": "ADVICS Body caliper RH",
+                    "toolDescription": "Casting die 1 cavity",
+                    "equipmentPartNumber": "DC-141116-10410",
+                    "cavity": "2",
+                    "equipmentId": "DC-141116-10410@2",
+                    "extId": "DC-ADV-R@2",
+                    "position": "R",
+                    "printPerDie": "1",
+                    "equipmentUsage": "Casting",
+                    "usedIn": "C6"
+                },
+                {
+                    "castingProduct": "141115-10410",
+                    "sandCoreProduct": "SC-141115-10410",
+                    "description": "ADVICS Body caliper LH",
+                    "toolDescription": "Casting die 1 cavity",
+                    "equipmentPartNumber": "DC-141115-10410",
+                    "cavity": "3",
+                    "equipmentId": "DC-141115-10410@3",
+                    "extId": "DC-ADV-L@3",
+                    "position": "L",
+                    "printPerDie": "1",
+                    "equipmentUsage": "Casting",
+                    "usedIn": "C6"
+                },
+                {
+                    "castingProduct": "141116-10410",
+                    "sandCoreProduct": "SC-141116-10410",
+                    "description": "ADVICS Body caliper RH",
+                    "toolDescription": "Casting die 1 cavity",
+                    "equipmentPartNumber": "DC-141116-10410",
+                    "cavity": "3",
+                    "equipmentId": "DC-141116-10410@3",
+                    "extId": "DC-ADV-R@3",
+                    "position": "R",
+                    "printPerDie": "1",
+                    "equipmentUsage": "Casting",
+                    "usedIn": "C6"
+                },
+                {
+                    "castingProduct": "141115-10410",
+                    "sandCoreProduct": "SC-141115-10410",
+                    "description": "ADVICS Body caliper LH",
+                    "toolDescription": "Casting die 1 cavity",
+                    "equipmentPartNumber": "DC-141115-10410",
+                    "cavity": "4",
+                    "equipmentId": "DC-141115-10410@4",
+                    "extId": "DC-ADV-L@4",
+                    "position": "L",
+                    "printPerDie": "1",
+                    "equipmentUsage": "Casting",
+                    "usedIn": "C6"
+                },
+                {
+                    "castingProduct": "141116-10410",
+                    "sandCoreProduct": "SC-141116-10410",
+                    "description": "ADVICS Body caliper RH",
+                    "toolDescription": "Casting die 1 cavity",
+                    "equipmentPartNumber": "DC-141116-10410",
+                    "cavity": "4",
+                    "equipmentId": "DC-141116-10410@4",
+                    "extId": "DC-ADV-R@4",
+                    "position": "R",
+                    "printPerDie": "1",
+                    "equipmentUsage": "Casting",
+                    "usedIn": "C6"
+                },
+                {
+                    "castingProduct": "141115-10410",
+                    "sandCoreProduct": "SC-141115-10410",
+                    "description": "ADVICS Body caliper LH",
+                    "toolDescription": "Casting die 1 cavity",
+                    "equipmentPartNumber": "DC-141115-10410",
+                    "cavity": "5",
+                    "equipmentId": "DC-141115-10410@5",
+                    "extId": "DC-ADV-L@5",
+                    "position": "L",
+                    "printPerDie": "1",
+                    "equipmentUsage": "Casting",
+                    "usedIn": "C6"
+                },
+                {
+                    "castingProduct": "141116-10410",
+                    "sandCoreProduct": "SC-141116-10410",
+                    "description": "ADVICS Body caliper RH",
+                    "toolDescription": "Casting die 1 cavity",
+                    "equipmentPartNumber": "DC-141116-10410",
+                    "cavity": "5",
+                    "equipmentId": "DC-141116-10410@5",
+                    "extId": "DC-ADV-R@5",
+                    "position": "R",
+                    "printPerDie": "1",
+                    "equipmentUsage": "Casting",
+                    "usedIn": "C6"
+                },
+                {
+                    "castingProduct": "141115-10410",
+                    "sandCoreProduct": "SC-141115-10410",
+                    "description": "ADVICS Body caliper LH",
+                    "toolDescription": "Casting die 1 cavity",
+                    "equipmentPartNumber": "DC-141115-10410",
+                    "cavity": "6",
+                    "equipmentId": "DC-141115-10410@6",
+                    "extId": "DC-ADV-L@6",
+                    "position": "L",
+                    "printPerDie": "1",
+                    "equipmentUsage": "Casting",
+                    "usedIn": "C6"
+                },
+                {
+                    "castingProduct": "141116-10410",
+                    "sandCoreProduct": "SC-141116-10410",
+                    "description": "ADVICS Body caliper RH",
+                    "toolDescription": "Casting die 1 cavity",
+                    "equipmentPartNumber": "DC-141116-10410",
+                    "cavity": "6",
+                    "equipmentId": "DC-141116-10410@6",
+                    "extId": "DC-ADV-R@6",
+                    "position": "R",
+                    "printPerDie": "1",
+                    "equipmentUsage": "Casting",
+                    "usedIn": "C6"
+                },
+                {
+                    "castingProduct": "141115-10410",
+                    "sandCoreProduct": "SC-141115-10410",
+                    "description": "ADVICS Body caliper LH",
+                    "toolDescription": "Casting die 1 cavity",
+                    "equipmentPartNumber": "DC-141115-10410",
+                    "cavity": "7",
+                    "equipmentId": "DC-141115-10410@7",
+                    "extId": "DC-ADV-L@7",
+                    "position": "L",
+                    "printPerDie": "1",
+                    "equipmentUsage": "Casting",
+                    "usedIn": "C6"
+                },
+                {
+                    "castingProduct": "141116-10410",
+                    "sandCoreProduct": "SC-141116-10410",
+                    "description": "ADVICS Body caliper RH",
+                    "toolDescription": "Casting die 1 cavity",
+                    "equipmentPartNumber": "DC-141116-10410",
+                    "cavity": "7",
+                    "equipmentId": "DC-141116-10410@7",
+                    "extId": "DC-ADV-R@7",
+                    "position": "R",
+                    "printPerDie": "1",
+                    "equipmentUsage": "Casting",
+                    "usedIn": "C6"
+                },
+                {
+                    "castingProduct": "141115-10410",
+                    "sandCoreProduct": "SC-141115-10410",
+                    "description": "ADVICS Body caliper LH",
+                    "toolDescription": "Casting die 1 cavity",
+                    "equipmentPartNumber": "DC-141115-10410",
+                    "cavity": "8",
+                    "equipmentId": "DC-141115-10410@8",
+                    "extId": "DC-ADV-L@8",
+                    "position": "L",
+                    "printPerDie": "1",
+                    "equipmentUsage": "Casting",
+                    "usedIn": "C6"
+                },
+                {
+                    "castingProduct": "141116-10410",
+                    "sandCoreProduct": "SC-141116-10410",
+                    "description": "ADVICS Body caliper RH",
+                    "toolDescription": "Casting die 1 cavity",
+                    "equipmentPartNumber": "DC-141116-10410",
+                    "cavity": "8",
+                    "equipmentId": "DC-141116-10410@8",
+                    "extId": "DC-ADV-R@8",
+                    "position": "R",
+                    "printPerDie": "1",
+                    "equipmentUsage": "Casting",
+                    "usedIn": "C6"
+                },
+                {
+                    "castingProduct": "141115-10410",
+                    "sandCoreProduct": "SC-141115-10410",
+                    "description": "ADVICS Body caliper LH",
+                    "toolDescription": "Casting die 1 cavity",
+                    "equipmentPartNumber": "DC-141115-10410",
+                    "cavity": "9",
+                    "equipmentId": "DC-141115-10410@9",
+                    "extId": "DC-ADV-L@9",
+                    "position": "L",
+                    "printPerDie": "1",
+                    "equipmentUsage": "Casting",
+                    "usedIn": "C6"
+                },
+                {
+                    "castingProduct": "141116-10410",
+                    "sandCoreProduct": "SC-141116-10410",
+                    "description": "ADVICS Body caliper RH",
+                    "toolDescription": "Casting die 1 cavity",
+                    "equipmentPartNumber": "DC-141116-10410",
+                    "cavity": "9",
+                    "equipmentId": "DC-141116-10410@9",
+                    "extId": "DC-ADV-R@9",
+                    "position": "R",
+                    "printPerDie": "1",
+                    "equipmentUsage": "Casting",
+                    "usedIn": "C6"
+                },
+                {
+                    "castingProduct": "141115-10410",
+                    "sandCoreProduct": "SC-141115-10410",
+                    "description": "ADVICS Body caliper LH",
+                    "toolDescription": "Casting die 1 cavity",
+                    "equipmentPartNumber": "DC-141115-10410",
+                    "cavity": "10",
+                    "equipmentId": "DC-141115-10410@10",
+                    "extId": "DC-ADV-L@10",
+                    "position": "L",
+                    "printPerDie": "1",
+                    "equipmentUsage": "Casting",
+                    "usedIn": "C6"
+                },
+                {
+                    "castingProduct": "141116-10410",
+                    "sandCoreProduct": "SC-141116-10410",
+                    "description": "ADVICS Body caliper RH",
+                    "toolDescription": "Casting die 1 cavity",
+                    "equipmentPartNumber": "DC-141116-10410",
+                    "cavity": "10",
+                    "equipmentId": "DC-141116-10410@10",
+                    "extId": "DC-ADV-R@10",
+                    "position": "R",
+                    "printPerDie": "1",
+                    "equipmentUsage": "Casting",
+                    "usedIn": "C6"
+                },
+                {
+                    "castingProduct": "141115-10410",
+                    "sandCoreProduct": "SC-141115-10410",
+                    "description": "ADVICS Body caliper LH",
+                    "toolDescription": "Casting die 1 cavity",
+                    "equipmentPartNumber": "DC-141115-10410",
+                    "cavity": "11",
+                    "equipmentId": "DC-141115-10410@11",
+                    "extId": "DC-ADV-L@11",
+                    "position": "L",
+                    "printPerDie": "1",
+                    "equipmentUsage": "Casting",
+                    "usedIn": "C6"
+                },
+                {
+                    "castingProduct": "141116-10410",
+                    "sandCoreProduct": "SC-141116-10410",
+                    "description": "ADVICS Body caliper RH",
+                    "toolDescription": "Casting die 1 cavity",
+                    "equipmentPartNumber": "DC-141116-10410",
+                    "cavity": "11",
+                    "equipmentId": "DC-141116-10410@11",
+                    "extId": "DC-ADV-R@11",
+                    "position": "R",
+                    "printPerDie": "1",
+                    "equipmentUsage": "Casting",
+                    "usedIn": "C6"
+                },
+                {
+                    "castingProduct": "141115-10410",
+                    "sandCoreProduct": "SC-141115-10410",
+                    "description": "ADVICS Body caliper LH",
+                    "toolDescription": "Casting die 1 cavity",
+                    "equipmentPartNumber": "DC-141115-10410",
+                    "cavity": "12",
+                    "equipmentId": "DC-141115-10410@12",
+                    "extId": "DC-ADV-L@12",
+                    "position": "L",
+                    "printPerDie": "1",
+                    "equipmentUsage": "Casting",
+                    "usedIn": "C6"
+                },
+                {
+                    "castingProduct": "141116-10410",
+                    "sandCoreProduct": "SC-141116-10410",
+                    "description": "ADVICS Body caliper RH",
+                    "toolDescription": "Casting die 1 cavity",
+                    "equipmentPartNumber": "DC-141116-10410",
+                    "cavity": "12",
+                    "equipmentId": "DC-141116-10410@12",
+                    "extId": "DC-ADV-R@12",
+                    "position": "R",
+                    "printPerDie": "1",
+                    "equipmentUsage": "Casting",
+                    "usedIn": "C6"
+                },
+                {
+                    "castingProduct": "141115-10410",
+                    "sandCoreProduct": "SC-141115-10410",
+                    "description": "ADVICS Body caliper LH",
+                    "toolDescription": "Casting die 1 cavity",
+                    "equipmentPartNumber": "DC-141115-10410",
+                    "cavity": "13",
+                    "equipmentId": "DC-141115-10410@13",
+                    "extId": "DC-ADV-L@13",
+                    "position": "L",
+                    "printPerDie": "1",
+                    "equipmentUsage": "Casting",
+                    "usedIn": "C6"
+                },
+                {
+                    "castingProduct": "141116-10410",
+                    "sandCoreProduct": "SC-141116-10410",
+                    "description": "ADVICS Body caliper RH",
+                    "toolDescription": "Casting die 1 cavity",
+                    "equipmentPartNumber": "DC-141116-10410",
+                    "cavity": "13",
+                    "equipmentId": "DC-141116-10410@13",
+                    "extId": "DC-ADV-R@13",
+                    "position": "R",
+                    "printPerDie": "1",
+                    "equipmentUsage": "Casting",
+                    "usedIn": "C6"
+                },
+                {
+                    "castingProduct": "141115-10410",
+                    "sandCoreProduct": "SC-141115-10410",
+                    "description": "ADVICS Body caliper LH",
+                    "toolDescription": "Casting die 1 cavity",
+                    "equipmentPartNumber": "DC-141115-10410",
+                    "cavity": "14",
+                    "equipmentId": "DC-141115-10410@14",
+                    "extId": "DC-ADV-L@14",
+                    "position": "L",
+                    "printPerDie": "1",
+                    "equipmentUsage": "Casting",
+                    "usedIn": "C6"
+                },
+                {
+                    "castingProduct": "141116-10410",
+                    "sandCoreProduct": "SC-141116-10410",
+                    "description": "ADVICS Body caliper RH",
+                    "toolDescription": "Casting die 1 cavity",
+                    "equipmentPartNumber": "DC-141116-10410",
+                    "cavity": "14",
+                    "equipmentId": "DC-141116-10410@14",
+                    "extId": "DC-ADV-R@14",
+                    "position": "R",
+                    "printPerDie": "1",
+                    "equipmentUsage": "Casting",
+                    "usedIn": "C6"
+                },
+                {
+                    "castingProduct": "141115-10410",
+                    "sandCoreProduct": "SC-141115-10410",
+                    "description": "ADVICS Body caliper LH",
+                    "toolDescription": "Casting die 1 cavity",
+                    "equipmentPartNumber": "DC-141115-10410",
+                    "cavity": "15",
+                    "equipmentId": "DC-141115-10410@15",
+                    "extId": "DC-ADV-L@15",
+                    "position": "L",
+                    "printPerDie": "1",
+                    "equipmentUsage": "Casting",
+                    "usedIn": "C6"
+                },
+                {
+                    "castingProduct": "141116-10410",
+                    "sandCoreProduct": "SC-141116-10410",
+                    "description": "ADVICS Body caliper RH",
+                    "toolDescription": "Casting die 1 cavity",
+                    "equipmentPartNumber": "DC-141116-10410",
+                    "cavity": "15",
+                    "equipmentId": "DC-141116-10410@15",
+                    "extId": "DC-ADV-R@15",
+                    "position": "R",
+                    "printPerDie": "1",
+                    "equipmentUsage": "Casting",
+                    "usedIn": "C6"
+                },
+                {
+                    "castingProduct": "141115-10410",
+                    "sandCoreProduct": "SC-141115-10410",
+                    "description": "ADVICS Body caliper LH",
+                    "toolDescription": "Casting die 1 cavity",
+                    "equipmentPartNumber": "DC-141115-10410",
+                    "cavity": "16",
+                    "equipmentId": "DC-141115-10410@16",
+                    "extId": "DC-ADV-L@16",
+                    "position": "L",
+                    "printPerDie": "1",
+                    "equipmentUsage": "Casting",
+                    "usedIn": "C6"
+                },
+                {
+                    "castingProduct": "141116-10410",
+                    "sandCoreProduct": "SC-141116-10410",
+                    "description": "ADVICS Body caliper RH",
+                    "toolDescription": "Casting die 1 cavity",
+                    "equipmentPartNumber": "DC-141116-10410",
+                    "cavity": "16",
+                    "equipmentId": "DC-141116-10410@16",
+                    "extId": "DC-ADV-R@16",
+                    "position": "R",
+                    "printPerDie": "1",
+                    "equipmentUsage": "Casting",
+                    "usedIn": "C6"
+                },
+                {
+                    "castingProduct": "141115-10410",
+                    "sandCoreProduct": "SC-141115-10410",
+                    "description": "ADVICS Body caliper LH",
+                    "toolDescription": "Casting die 1 cavity",
+                    "equipmentPartNumber": "DC-141115-10410",
+                    "cavity": "17",
+                    "equipmentId": "DC-141115-10410@17",
+                    "extId": "DC-ADV-L@17",
+                    "position": "L",
+                    "printPerDie": "1",
+                    "equipmentUsage": "Casting",
+                    "usedIn": "C6"
+                },
+                {
+                    "castingProduct": "141116-10410",
+                    "sandCoreProduct": "SC-141116-10410",
+                    "description": "ADVICS Body caliper RH",
+                    "toolDescription": "Casting die 1 cavity",
+                    "equipmentPartNumber": "DC-141116-10410",
+                    "cavity": "17",
+                    "equipmentId": "DC-141116-10410@17",
+                    "extId": "DC-ADV-R@17",
+                    "position": "R",
+                    "printPerDie": "1",
+                    "equipmentUsage": "Casting",
+                    "usedIn": "C6"
+                }
+            ]
+        }
+    ],
+    "plcSettings": {
+        "carousselConfig": [
+            {
+                "refCode": "B",
+                "pos": 0,
+                "cavityPartNumber": [
+                    "13.4426-9973.9",
+                    "13.4426-9974.9"
+                ],
+                "cavitySide": [
+                    "L",
+                    "R"
+                ]
+            },
+            {
+                "refCode": "B",
+                "pos": 1,
+                "cavityPartNumber": [
+                    "13.4426-9973.9",
+                    "13.4426-9974.9"
+                ],
+                "cavitySide": [
+                    "L",
+                    "R"
+                ]
+            },
+            {
+                "refCode": "C",
+                "pos": 0,
+                "cavityPartNumber": [
+                    "13.4446-9963.9",
+                    "13.4446-9964.9"
+                ],
+                "cavitySide": [
+                    "L",
+                    "R"
+                ]
+            },
+            {
+                "refCode": "C",
+                "pos": 1,
+                "cavityPartNumber": [
+                    "13.4446-9963.9",
+                    "13.4446-9964.9"
+                ],
+                "cavitySide": [
+                    "L",
+                    "R"
+                ]
+            },
+            {
+                "refCode": "A",
+                "pos": 0,
+                "cavityPartNumber": [
+                    "141116-10410"
+                ],
+                "cavitySide": [
+                    "L"
+                ]
+            },
+            {
+                "refCode": "A",
+                "pos": 1,
+                "cavityPartNumber": [
+                    "141115-10410"
+                ],
+                "cavitySide": [
+                    "R"
+                ]
+            },
+            {
+                "refCode": "E",
+                "pos": 0,
+                "cavityPartNumber": [
+                    "51-D3507-17110"
+                ],
+                "cavitySide": [
+                    "L"
+                ]
+            },
+            {
+                "refCode": "E",
+                "pos": 1,
+                "cavityPartNumber": [
+                    "51-D3507-27110"
+                ],
+                "cavitySide": [
+                    "R"
+                ]
+            },
+            {
+                "refCode": "F",
+                "pos": 0,
+                "cavityPartNumber": [
+                    "51-D3508-17110"
+                ],
+                "cavitySide": [
+                    "L"
+                ]
+            },
+            {
+                "refCode": "F",
+                "pos": 1,
+                "cavityPartNumber": [
+                    "51-D3508-27110"
+                ],
+                "cavitySide": [
+                    "R"
+                ]
+            },
+            {
+                "refCode": "G",
+                "pos": 0,
+                "cavityPartNumber": [
+                    "51-D3517-17110"
+                ],
+                "cavitySide": [
+                    "L"
+                ]
+            },
+            {
+                "refCode": "G",
+                "pos": 1,
+                "cavityPartNumber": [
+                    "51-D3517-27110"
+                ],
+                "cavitySide": [
+                    "R"
+                ]
+            }
+        ],
+        "topicTemplates": [
+            {
+                "stationNumber": "0600200601",
+                "topicTemplate": "processdata/empty/casting/carousel_06"
+            },
+            {
+                "stationNumber": "0600201001",
+                "topicTemplate": "processdata/empty/casting/carousel_10"
+            },
+            {
+                "stationNumber": "060020K101",
+                "topicTemplate": "processdata/empty/casting/kaizen_k1"
+            },
+            {
+                "stationNumber": "04002011",
+                "topicTemplate": "processdata/empty/sandcore/hansberg3"
+            },
+            {
+                "stationNumber": "04002021",
+                "topicTemplate": "rocessdata/empty/sandcore/hansberg4"
+            }
+        ],
+        "dummyTrolleyInfo": [
+            {
+                "refCode": "A",
+                "trolleyPartNumber": "ADVICS_TR",
+                "dummyTrolleyId": "ADVICS_DUMMY"
+            },
+            {
+                "refCode": "B",
+                "trolleyPartNumber": "MLBEVO_TR",
+                "dummyTrolleyId": "MLBEVO_16_ECE_DUMMY"
+            },
+            {
+                "refCode": "C",
+                "trolleyPartNumber": "MLBEVO_TR",
+                "dummyTrolleyId": "MLBEVO_17_NAO_DUMMY"
+            },
+            {
+                "refCode": "D",
+                "trolleyPartNumber": "AKEBONO_TR",
+                "dummyTrolleyId": "AKEBONO_18_NAO_DUMMY"
+            },
+            {
+                "refCode": "E",
+                "trolleyPartNumber": "AKEBONO_TR",
+                "dummyTrolleyId": "AKEBONO_18_ECE_DUMMY"
+            },
+            {
+                "refCode": "F",
+                "trolleyPartNumber": "AKEBONO_TR",
+                "dummyTrolleyId": "AKEBONO_19_ECE_DUMMY"
+            },
+            {
+                "refCode": "G",
+                "trolleyPartNumber": "AKEBONO_TR",
+                "dummyTrolleyId": "AKEBONO_18_RSQ3_DUMMY"
+            }
+        ],
+        "parameterAlarmCodes": [
+            {
+                "name": "air_blowing_time_by_casting_operator",
+                "typeCode": "2"
+            },
+            {
+                "name": "dcm_cycle_time",
+                "typeCode": "2"
+            },
+            {
+                "name": "flow_rate_cooling_1",
+                "typeCode": "1"
+            },
+            {
+                "name": "flow_rate_cooling_2",
+                "typeCode": "1"
+            },
+            {
+                "name": "flow_rate_cooling_4",
+                "typeCode": "1"
+            },
+            {
+                "name": "flow_rate_cooling_5",
+                "typeCode": "1"
+            },
+            {
+                "name": "flow_rate_cooling_6",
+                "typeCode": "1"
+            },
+            {
+                "name": "flow_rate_cooling_8",
+                "typeCode": "1"
+            },
+            {
+                "name": "furance_metal_level",
+                "typeCode": "3"
+            },
+            {
+                "name": "furnace_temperature",
+                "typeCode": "3"
+            },
+            {
+                "name": "laser_1_thermocouple_1_temperature",
+                "typeCode": "1"
+            },
+            {
+                "name": "laser_2_thermocouple_2_temperature",
+                "typeCode": "1"
+            },
+            {
+                "name": "presence_filters",
+                "typeCode": "1"
+            },
+            {
+                "name": "skimming_cycling",
+                "typeCode": "1"
+            },
+            {
+                "name": "time_cooling_1",
+                "typeCode": "1"
+            },
+            {
+                "name": "time_cooling_2",
+                "typeCode": "1"
+            },
+            {
+                "name": "time_cooling_5",
+                "typeCode": "1"
+            },
+            {
+                "name": "time_cooling_6",
+                "typeCode": "1"
+            },
+            {
+                "name": "flow_rate_cooling_3",
+                "typeCode": "1"
+            },
+            {
+                "name": "flow_rate_cooling_7",
+                "typeCode": "1"
+            },
+            {
+                "name": "time_cooling_3",
+                "typeCode": "1"
+            },
+            {
+                "name": "time_cooling_4",
+                "typeCode": "1"
+            },
+            {
+                "name": "time_cooling_7",
+                "typeCode": "1"
+            },
+            {
+                "name": "time_cooling_8",
+                "typeCode": "1"
+            },
+            {
+                "name": "flow_rate_cooling_4",
+                "typeCode": "0"
+            },
+            {
+                "name": "laser_3_thermocouple_3_temperature",
+                "typeCode": "1"
+            },
+            {
+                "name": "laser_4_thermocouple_4_temperature",
+                "typeCode": "1"
+            },
+            {
+                "name": "furance_metal_level",
+                "typeCode": "1"
+            },
+            {
+                "name": "furnace_temperature",
+                "typeCode": "1"
+            }
+        ],
+        "alarmTypes": [
+            {
+                "typeCode": 1,
+                "type": "error"
+            },
+            {
+                "typeCode": 2,
+                "type": "info"
+            },
+            {
+                "typeCode": 3,
+                "type": "warning"
+            }
+        ]
+    },
+    "customerFailureCodes": [
+        {
+            "failureCode": -1020,
+            "failureMessage": "The trolley Id selected does not match the trolley Id in the configuration"
+        }
+    ],
+    "finalPacking": {
+        "maxBasketQuantities": [
+            {
+                "quantity": 48
+            },
+            {
+                "quantity": 56
+            },
+            {
+                "quantity": 60
+            },
+            {
+                "quantity": 64
+            },
+            {
+                "quantity": 72
+            },
+            {
+                "quantity": 90
+            }
+        ],
+        "sapCodes": [
+            {
+                "partNumber": "51-D3507-17110",
+                "sapCode": "313489"
+            },
+            {
+                "partNumber": "51-D3507-27110",
+                "sapCode": "313498"
+            },
+            {
+                "partNumber": "51-D3606-17110",
+                "sapCode": "313499"
+            },
+            {
+                "partNumber": "51-D3606-27110",
+                "sapCode": "313500"
+            },
+            {
+                "partNumber": "51-D3508-17110",
+                "sapCode": "313902"
+            },
+            {
+                "partNumber": "51-D3508-27110",
+                "sapCode": "313903"
+            },
+            {
+                "partNumber": "51-D3517-17110",
+                "sapCode": "316705"
+            },
+            {
+                "partNumber": "51-D3517-27110",
+                "sapCode": "316706"
+            },
+            {
+                "partNumber": "13.4446-9963.9",
+                "sapCode": "313350"
+            },
+            {
+                "partNumber": "13.4446-9964.9",
+                "sapCode": "313351"
+            },
+            {
+                "partNumber": "13.4426-9973.9",
+                "sapCode": "313162"
+            },
+            {
+                "partNumber": "13.4426-9974.9",
+                "sapCode": "313163"
+            },
+            {
+                "partNumber": "13.4446-9801.9",
+                "sapCode": "317667"
+            },
+            {
+                "partNumber": "13.4446-9802.9",
+                "sapCode": "317668"
+            },
+            {
+                "partNumber": "13.4446-9805.9",
+                "sapCode": "317797"
+            },
+            {
+                "partNumber": "13.4446-9806.9",
+                "sapCode": "317798"
+            },
+            {
+                "partNumber": "141116-10410",
+                "sapCode": "313065"
+            },
+            {
+                "partNumber": "141115-10410",
+                "sapCode": "313066"
+            }
+        ]
+    },
+    "wipPacking": {
+        "hookTrolley": {
+            "setup": [
+                {
+                    "productFamily": "Akebono MLBevo 18 ECE",
+                    "config": "1L,0:|1R,0:|2L,0:|2R,0:|3L,0:|3R,0:|4L,0:|4R,0:|5L,0:|5R,0:|6L,0:|6R,0:|7L,0:|7R,0:|8L,0:|8R,0:|9L,0:|9R,0:|10L,0:|10R,0:|11L,0:|11R,0:|12L,0:|12R,0:|13L,0:|13R,0:|14L,0:|14R,0:|15L,0:|15R,0:|16L,0:|16R,0:|17L,0:|17R,0:|18L,0:|18R,0:"
+                },
+                {
+                    "productFamily": "Akebono MLBevo 18 NAO",
+                    "config": "1L,0:|1R,0:|2L,0:|2R,0:|3L,0:|3R,0:|4L,0:|4R,0:|5L,0:|5R,0:|6L,0:|6R,0:|7L,0:|7R,0:|8L,0:|8R,0:|9L,0:|9R,0:|10L,0:|10R,0:|11L,0:|11R,0:|12L,0:|12R,0:|13L,0:|13R,0:|14L,0:|14R,0:|15L,0:|15R,0:|16L,0:|16R,0:|17L,0:|17R,0:|18L,0:|18R,0:"
+                },
+                {
+                    "productFamily": "Akebono MLBevo 19 ECE",
+                    "config": "1L,0:|1R,0:|2L,0:|2R,0:|3L,0:|3R,0:|4L,0:|4R,0:|5L,0:|5R,0:|6L,0:|6R,0:|7L,0:|7R,0:|8L,0:|8R,0:|9L,0:|9R,0:|10L,0:|10R,0:|11L,0:|11R,0:|12L,0:|12R,0:|13L,0:|13R,0:|14L,0:|14R,0:|15L,0:|15R,0:|16L,0:|16R,0:|17L,0:|17R,0:|18L,0:|18R,0:"
+                },
+                {
+                    "productFamily": "Akebono MLBevo 18 RS Q3",
+                    "config": "1L,0:|1R,0:|2L,0:|2R,0:|3L,0:|3R,0:|4L,0:|4R,0:|5L,0:|5R,0:|6L,0:|6R,0:|7L,0:|7R,0:|8L,0:|8R,0:|9L,0:|9R,0:|10L,0:|10R,0:|11L,0:|11R,0:|12L,0:|12R,0:|13L,0:|13R,0:|14L,0:|14R,0:|15L,0:|15R,0:|16L,0:|16R,0:|17L,0:|17R,0:|18L,0:|18R,0:"
+                },
+                {
+                    "productFamily": "Continental MLBevo 17 NAO",
+                    "config": "1,0:|2,0:|3,0:|4,0:|5,0:|6,0:|7,0:|8,0:|9,0:|10,0:|11,0:|12,0:|13,0:|14,0:|15,0:|16,0:|17,0:|18,0:|19,0:|20,0:|21,0:|22,0:|23,0:|24,0:"
+                },
+                {
+                    "productFamily": "Continental MLBevo 16 ECE",
+                    "config": "1,0:|2,0:|3,0:|4,0:|5,0:|6,0:|7,0:|8,0:|9,0:|10,0:|11,0:|12,0:|13,0:|14,0:|15,0:|16,0:|17,0:|18,0:|19,0:|20,0:|21,0:|22,0:|23,0:|24,0:"
+                },
+                {
+                    "productFamily": "Continental Hyundai M3 18",
+                    "config": "1L,0:|1R,0:|2L,0:|2R,0:|3L,0:|3R,0:|4L,0:|4R,0:|5L,0:|5R,0:|6L,0:|6R,0:|7L,0:|7R,0:|8L,0:|8R,0:|9L,0:|9R,0:|10L,0:|10R,0:|11L,0:|11R,0:|12L,0:|12R,0:|13L,0:|13R,0:|14L,0:|14R,0:|15L,0:|15R,0:|16L,0:|16R,0:|17L,0:|17R,0:|18L,0:|18R,0:"
+                },
+                {
+                    "productFamily": "Continental Hyundai M3 19",
+                    "config": "1L,0:|1R,0:|2L,0:|2R,0:|3L,0:|3R,0:|4L,0:|4R,0:|5L,0:|5R,0:|6L,0:|6R,0:|7L,0:|7R,0:|8L,0:|8R,0:|9L,0:|9R,0:|10L,0:|10R,0:|11L,0:|11R,0:|12L,0:|12R,0:|13L,0:|13R,0:|14L,0:|14R,0:|15L,0:|15R,0:|16L,0:|16R,0:|17L,0:|17R,0:|18L,0:|18R,0:"
+                },
+                {
+                    "productFamily": "Advics Daimler MRA",
+                    "config": "1L,0:|1R,0:|2L,0:|2R,0:|3L,0:|3R,0:|4L,0:|4R,0:|5L,0:|5R,0:|6L,0:|6R,0:|7L,0:|7R,0:|8L,0:|8R,0:|9L,0:|9R,0:|10L,0:|10R,0:|11L,0:|11R,0:|12L,0:|12R,0:|13L,0:|13R,0:|14L,0:|14R,0:|15L,0:|15R,0:|16L,0:|16R,0:|17L,0:|17R,0:|18L,0:|18R,0:"
+                }
+            ]
+        },
+        "maxBasketQuantities": [
+            {
+                "quantity": 112
+            },
+            {
+                "quantity": 128
+            }
+        ],
+        "basketNumbers": [
+            {
+                "basketNumber": "U001"
+            },
+            {
+                "basketNumber": "U002"
+            },
+            {
+                "basketNumber": "U003"
+            },
+            {
+                "basketNumber": "U004"
+            },
+            {
+                "basketNumber": "U005"
+            },
+            {
+                "basketNumber": "U006"
+            },
+            {
+                "basketNumber": "U007"
+            },
+            {
+                "basketNumber": "U008"
+            },
+            {
+                "basketNumber": "U009"
+            },
+            {
+                "basketNumber": "U010"
+            },
+            {
+                "basketNumber": "U011"
+            },
+            {
+                "basketNumber": "U012"
+            },
+            {
+                "basketNumber": "U013"
+            },
+            {
+                "basketNumber": "U014"
+            },
+            {
+                "basketNumber": "U015"
+            },
+            {
+                "basketNumber": "U016"
+            },
+            {
+                "basketNumber": "U017"
+            },
+            {
+                "basketNumber": "U018"
+            },
+            {
+                "basketNumber": "U019"
+            },
+            {
+                "basketNumber": "U020"
+            },
+            {
+                "basketNumber": "U021"
+            },
+            {
+                "basketNumber": "U022"
+            },
+            {
+                "basketNumber": "U023"
+            },
+            {
+                "basketNumber": "U024"
+            },
+            {
+                "basketNumber": "U025"
+            },
+            {
+                "basketNumber": "U026"
+            },
+            {
+                "basketNumber": "U027"
+            },
+            {
+                "basketNumber": "U028"
+            },
+            {
+                "basketNumber": "U029"
+            },
+            {
+                "basketNumber": "U030"
+            },
+            {
+                "basketNumber": "U031"
+            },
+            {
+                "basketNumber": "U032"
+            },
+            {
+                "basketNumber": "U033"
+            },
+            {
+                "basketNumber": "U034"
+            },
+            {
+                "basketNumber": "U035"
+            },
+            {
+                "basketNumber": "U036"
+            },
+            {
+                "basketNumber": "U037"
+            },
+            {
+                "basketNumber": "U038"
+            },
+            {
+                "basketNumber": "U039"
+            },
+            {
+                "basketNumber": "U040"
+            },
+            {
+                "basketNumber": "U041"
+            },
+            {
+                "basketNumber": "U042"
+            },
+            {
+                "basketNumber": "U043"
+            },
+            {
+                "basketNumber": "U044"
+            },
+            {
+                "basketNumber": "U045"
+            },
+            {
+                "basketNumber": "U046"
+            },
+            {
+                "basketNumber": "U047"
+            },
+            {
+                "basketNumber": "U048"
+            },
+            {
+                "basketNumber": "U049"
+            },
+            {
+                "basketNumber": "U050"
+            },
+            {
+                "basketNumber": "U051"
+            },
+            {
+                "basketNumber": "U052"
+            },
+            {
+                "basketNumber": "U053"
+            },
+            {
+                "basketNumber": "U111"
+            },
+            {
+                "basketNumber": "A001"
+            },
+            {
+                "basketNumber": "A002"
+            },
+            {
+                "basketNumber": "A003"
+            },
+            {
+                "basketNumber": "A004"
+            },
+            {
+                "basketNumber": "A005"
+            },
+            {
+                "basketNumber": "A006"
+            },
+            {
+                "basketNumber": "A007"
+            },
+            {
+                "basketNumber": "A008"
+            },
+            {
+                "basketNumber": "A009"
+            },
+            {
+                "basketNumber": "A010"
+            },
+            {
+                "basketNumber": "A011"
+            },
+            {
+                "basketNumber": "BEOL1"
+            },
+            {
+                "basketNumber": "BEOL2"
+            },
+            {
+                "basketNumber": "BEOL3"
+            },
+            {
+                "basketNumber": "BEOL4"
+            },
+            {
+                "basketNumber": "BEOL5"
+            }
+        ]
+    }
+}
